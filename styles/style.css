@@ -23,7 +23,7 @@
         font-weight: 600;
     }
 
-    .nav-ion-icon {
+    .ion-icon {
         height: 1.6rem;
         width: 1.6rem;
     }
@@ -97,8 +97,8 @@
         color: red;
     }
 
-    .tik-tok {
-        columns: #000000;
+    #tik-tok {
+        color: #000000;
     }
 
     /* Banner Part */
@@ -133,6 +133,7 @@
         font-weight: 500;
     }
 
+    /* banner-ion-icon */
     ion-icon {
         height: 1rem;
         align-items: center;
@@ -183,6 +184,36 @@
         margin-bottom: 4rem;
     }
 
+    .video{
+        position: relative;
+    }
+
+    .video-overlay{
+        position: absolute;
+        top: 0;
+        height: 25rem;
+        width: 100%;
+        font-size: 1rem;
+        color:#FF42A5;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        border-radius: 1rem;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.25s;
+    }
+
+    #video-play-ion-icon{
+        color: white;
+    }
+
+    .video-overlay:hover{
+        opacity: 1;
+    }
+
 
 
 
@@ -191,6 +222,8 @@
     /* Layout-1: Small devices like Mobile */
 
     @media screen and (max-width:576px) {
+
+        /* Nav Bar Part */
 
         .nav {
             flex-direction: column;
@@ -214,6 +247,8 @@
             margin-right: 0;
         }
 
+        /* Banner Part */
+
         .banner {
             flex-direction: column-reverse;
             gap: 3rem;
@@ -223,6 +258,14 @@
             height: 90%;
             width: 80%;
             padding-left: 1.5rem;
+        }
+
+        /* Funny Videos Part */
+
+        .funny-videos-collection{
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
         }
 
     }
@@ -241,6 +284,13 @@
             gap: 3rem;
             padding: 2rem;
             margin-top: 4rem;
+        }
+
+        .funny-videos-collection{
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
         }
 
     }
