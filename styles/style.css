@@ -10,6 +10,27 @@
         font-family: 'Work Sans', sans-serif;
     }
 
+
+    .logo {
+        color: #0B0223;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 5rem;
+        height: 2.5rem;
+        padding-right: 1rem;
+    }
+
+    .logo span {
+        color: #FF42A5;
+    }
+
+
     .btn-primary {
         width: 10rem;
         height: auto;
@@ -39,25 +60,6 @@
         display: flex;
         justify-content: space-around;
         padding: 2rem 0;
-    }
-
-    .nav .logo {
-        color: #0B0223;
-        text-align: center;
-        font-size: 3rem;
-        font-weight: 700;
-        display: flex;
-        align-items: center;
-    }
-
-    .nav .logo img {
-        width: 5rem;
-        height: 2.5rem;
-        padding-right: 1rem;
-    }
-
-    .nav .logo span {
-        color: #FF42A5;
     }
 
     .nav .menu ul {
@@ -138,7 +140,7 @@
 
 
     /* banner-ion-icon */
-    ion-icon {
+    .banner ion-icon {
         height: 1rem;
         align-items: center;
         justify-content: center;
@@ -273,7 +275,7 @@
         right: 29rem;
     }
 
-    /* The following CSS styles are for the "All Games" */
+    /* The following CSS styles are for the "All Games" section.*/
 
     .all-games {
         margin-bottom: 10rem;
@@ -303,7 +305,7 @@
         font-weight: 600;
     }
 
-    .game a{
+    .game a {
         text-decoration: none;
         display: flex;
         gap: 0.5rem;
@@ -313,6 +315,69 @@
 
     .game:hover {
         border: 2px solid #FF42A5;
+    }
+
+    /* The following CSS styles are for the "footer" section.*/
+
+    .footer {
+        height: 40rem;
+        width: 100%;
+        background-color: #0B0223;
+    }
+
+    .footer h1 {
+        color: white;
+    }
+
+    #footer-logo {
+        justify-content: center;
+        padding-top: 5rem;
+    }
+
+    .about-us-footer {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 2rem 5rem;
+    }
+
+    .about-us-footer p a {
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    .contact-us-logo{
+        padding-left:40rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact-us-logo ion-icon{
+        color: white;
+        height: 2rem;
+        width: 3rem;
+    }
+
+
+    .condition {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 2rem 10rem;
+    }
+
+    .condition a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.60);
+    }
+
+    .footer p {
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
     }
 
 
@@ -375,7 +440,7 @@
             flex-direction: column;
             gap: 3rem;
             justify-content: center;
-            padding:0;
+            padding: 0;
         }
 
         .gaming-character-img img {
@@ -392,6 +457,24 @@
             width: 150%;
             bottom: 13rem;
             left: 8rem;
+        }
+
+        .footer{
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .about-us-footer{
+            flex-direction: column;
+        }
+
+        .contact-us-logo{
+            padding: 0;
+        }
+
+        .condition{
+            flex-direction: column;
         }
 
     }
