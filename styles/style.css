@@ -13,7 +13,6 @@
     .btn-primary {
         width: 10rem;
         height: auto;
-        background-color: #FF42A5;
         border: transparent;
         border-radius: 3rem;
         padding: 1rem;
@@ -76,6 +75,10 @@
         padding-right: 2rem;
     }
 
+    .nav .menu ul li a {
+        text-decoration: none;
+    }
+
     .follow-us {
         width: 15rem;
         height: 3rem;
@@ -133,6 +136,7 @@
         font-weight: 500;
     }
 
+
     /* banner-ion-icon */
     ion-icon {
         height: 1rem;
@@ -146,6 +150,14 @@
         display: flex;
         gap: 1.5rem;
         padding-top: 1.5rem;
+    }
+
+    .btn-banner a{
+        text-decoration: none;
+    }
+
+    #btn-sign-in{
+        background-color: #FF42A5;
     }
 
     #btn-go-rogue {
@@ -184,17 +196,17 @@
         margin-bottom: 4rem;
     }
 
-    .video{
+    .video {
         position: relative;
     }
 
-    .video-overlay{
+    .video-overlay {
         position: absolute;
         top: 0;
         height: 25rem;
         width: 100%;
         font-size: 1rem;
-        color:#FF42A5;
+        color: #FF42A5;
         background: rgba(0, 0, 0, 0.6);
         display: flex;
         flex-direction: column;
@@ -206,11 +218,11 @@
         transition: opacity 0.25s;
     }
 
-    #video-play-ion-icon{
+    #video-play-ion-icon {
         color: white;
     }
 
-    .video-overlay:hover{
+    .video-overlay:hover {
         opacity: 1;
     }
 
@@ -262,11 +274,13 @@
 
         /* Funny Videos Part */
 
-        .funny-videos-collection{
+        .funny-videos-collection {
             flex-direction: column;
             gap: 2rem;
             align-items: center;
         }
+
+
 
     }
 
@@ -282,11 +296,17 @@
         .banner {
             flex-direction: column;
             gap: 3rem;
-            padding: 2rem;
             margin-top: 4rem;
+            align-items: center;
+            justify-content: center;
         }
 
-        .funny-videos-collection{
+        .banner-img img {
+            height: auto;
+            width: 100%;
+        }
+
+        .funny-videos-collection {
             flex-direction: column;
             gap: 2rem;
             align-items: center;
