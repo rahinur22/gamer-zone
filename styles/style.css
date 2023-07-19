@@ -6,6 +6,7 @@
 
     * {
         margin: 0;
+        padding: 0;
         font-family: 'Work Sans', sans-serif;
     }
 
@@ -38,7 +39,7 @@
         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
         display: flex;
         justify-content: space-around;
-        padding: 2rem;
+        padding: 2rem 0;
     }
 
     .nav .logo {
@@ -76,7 +77,7 @@
     }
 
     .follow-us {
-        width: 16rem;
+        width: 15rem;
         height: 3rem;
         border-radius: 0.5rem;
         background-color: rgba(11, 2, 35, 0.10);
@@ -88,7 +89,7 @@
     .follow-us-icon {
         display: flex;
         gap: 1rem;
-        padding-left: 2.5rem;
+        padding-left: 2rem;
         padding-bottom: 0.4rem;
     }
 
@@ -109,6 +110,7 @@
         justify-content: center;
         display: flex;
         gap: 10rem;
+        margin-bottom: 5rem;
     }
 
     .banner-details h1 {
@@ -149,6 +151,41 @@
         background: #4EC5F7;
     }
 
+    /* The following CSS styles are for the "Online Games Funny Videos Collection" */
+
+    .funny-videos-description {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .funny-videos-description h1 {
+        color: #0B0223;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .funny-videos-description h1 span {
+        color: #8758F1;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .funny-videos-description p {
+        color: #534C64;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .funny-videos-collection {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+
+
+
+
     /* The following CSS styles for making website responsive */
 
     /* Layout-1: Small devices like Mobile */
@@ -173,7 +210,7 @@
             margin-bottom: 1.5rem;
         }
 
-        #tik-tok{
+        #tik-tok {
             margin-right: 0;
         }
 
@@ -192,18 +229,18 @@
 
     /* Layout - 2: Medium devices like Tablet , Ipad etc. */
 
-    @media screen and (min-width:576px) and (max-width:960px){
-        
-        .nav{
+    @media screen and (min-width:576px) and (max-width:960px) {
+
+        .nav {
             flex-direction: column;
             align-items: center;
         }
 
-        .banner{
+        .banner {
             flex-direction: column;
             gap: 3rem;
             padding: 2rem;
             margin-top: 4rem;
         }
-        
+
     }
