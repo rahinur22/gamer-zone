@@ -152,11 +152,11 @@
         padding-top: 1.5rem;
     }
 
-    .btn-banner a{
+    .btn-banner a {
         text-decoration: none;
     }
 
-    #btn-sign-in{
+    #btn-sign-in {
         background-color: #FF42A5;
     }
 
@@ -226,6 +226,52 @@
         opacity: 1;
     }
 
+    /* The following CSS styles are  for the "Play Instantly and Gaming Character" section */
+
+    .container-1 {
+        display: flex;
+        gap: 16rem;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4rem;
+        margin-bottom: 10rem;
+    }
+
+    .play-instantly {
+        align-items: center;
+    }
+
+    .play-instantly h1 {
+        text-align: right;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 4rem;
+    }
+
+    .play-instantly h1 span {
+        color: #FF42A5;
+    }
+
+
+    .play-instantly p {
+        height: auto;
+        width: 25rem;
+        color: #534C64;
+        text-align: right;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+
+    .gaming-character-img {
+        position: relative;
+    }
+
+    .gaming-character-img-overlay {
+        position: absolute;
+        top: 26rem;
+        right: 29rem;
+    }
 
 
 
@@ -279,8 +325,6 @@
             gap: 2rem;
             align-items: center;
         }
-
-
 
     }
 
