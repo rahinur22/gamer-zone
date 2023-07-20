@@ -10,7 +10,6 @@
         font-family: 'Work Sans', sans-serif;
     }
 
-
     .logo {
         color: #0B0223;
         text-align: center;
@@ -263,7 +262,6 @@
         color: #FF42A5;
     }
 
-
     .play-instantly p {
         height: auto;
         width: 25rem;
@@ -272,7 +270,6 @@
         font-size: 1.2rem;
         line-height: 2rem;
     }
-
 
     .gaming-character-img {
         position: relative;
@@ -371,7 +368,6 @@
         width: 3rem;
     }
 
-
     .condition {
         display: flex;
         gap: 2rem;
@@ -394,10 +390,10 @@
     }
 
 
-
     /* The following CSS styles for making website responsive */
 
-    /* Layout-1: Mobile Large */
+    /* Layout-1: Mobile-Large */
+
 
     @media screen and (max-width:576px) {
 
@@ -640,8 +636,6 @@
 
     }
 
-
-
     /* Layout - 2: Medium devices like Tablet , Ipad etc. */
 
     @media screen and (min-width:576px) and (max-width:960px) {
@@ -674,10 +668,16 @@
         /* Play Instantly Section */
 
         .container-1 {
-            display: none;
             flex-direction: column;
             gap: 4rem;
-            padding: 0 2rem;
+        }
+
+        .play-instantly h1 {
+            text-align: center;
+        }
+
+        .play-instantly p {
+            text-align: center;
         }
 
         .gaming-character-img img {
@@ -694,8 +694,9 @@
             top: 2rem;
         }
 
-        .footer {
-            display: none;
+        .about-us-footer {
+            flex-wrap: wrap;
+            padding: 1rem 12rem;
         }
 
     }
