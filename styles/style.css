@@ -61,7 +61,6 @@
     }
 
     .nav .menu ul {
-        color: #3C354F;
         text-align: center;
         align-items: center;
         font-size: 1.2rem;
@@ -76,6 +75,7 @@
     }
 
     .nav .menu ul li a {
+        color: #3C354F;
         text-decoration: none;
     }
 
@@ -395,7 +395,6 @@
 
 
 
-
     /* The following CSS styles for making website responsive */
 
     /* Layout-1: Mobile Large */
@@ -429,9 +428,8 @@
 
         .follow-us {
             height: auto;
-            width: 90%;
+            width: auto;
             text-align: left;
-            justify-content: center;
             margin-bottom: 1.5rem;
         }
 
@@ -449,11 +447,11 @@
         .banner-img img {
             height: auto;
             width: 70%;
-            padding: 1rem 4rem;
+            padding-left: 4rem;
         }
 
         .banner-details {
-            padding: 4rem;
+            padding: 3.5rem;
         }
 
         .banner-details h1 {
@@ -466,7 +464,7 @@
         }
 
         .banner-details ul {
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
 
         /* banner-ion-icon */
@@ -502,7 +500,7 @@
 
         .funny-videos-description p {
             font-size: 1rem;
-            line-height: 1.3rem;
+            line-height: 1.4rem;
             padding: 0.7rem 4rem;
         }
 
@@ -512,13 +510,9 @@
             align-items: center;
         }
 
-        .video-details {
-            padding-left: 7rem;
-        }
-
         .video-details .video img {
-            height: auto;
-            width: 60%;
+            height: 13.8rem;
+            width: 100%;
         }
 
         .video-details p {
@@ -526,13 +520,13 @@
         }
 
         .video-overlay {
-            height: 15rem;
-            width: 60%;
+            height: 13.8rem;
+            width: 100%;
             font-size: 1rem;
             gap: 0.3rem;
-            border-radius: 0.7rem;
+            border-radius: 0.6rem;
         }
-    
+
         /* Play Instantly Part */
 
         .container-1 {
@@ -553,21 +547,23 @@
             font-size: 1rem;
             line-height: 1.5rem;
             text-align: center;
-            padding: 1rem 2.5rem;
+            padding-top: 1rem;
+            padding-left: 2.8rem;
         }
 
         .gaming-character-img img {
             height: auto;
             width: 60%;
-            padding: 0 5rem;
+            padding-top: 1rem;
+            padding-left: 5rem;
         }
 
         .gaming-character-img-overlay img {
             position: relative;
             height: auto;
-            width: 60%;
-            bottom: 13.5rem;
-            left: 9rem;
+            width: 100%;
+            bottom: 12.5rem;
+            left: 4.5rem;
         }
 
         /* All Games */
@@ -611,6 +607,7 @@
         /* Footer Section */
 
         .footer {
+            /* display: none; */
             width: 100%;
             height: auto;
             padding-bottom: 2rem;
